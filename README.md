@@ -6,25 +6,25 @@ For readability, I split the project into two Jupyter notebooks.
 ### Step 1: Explore and preprocess the data
 
 In the "Identify_Customer_Segments_Preprocessing.ipynb" Jupyter notebook, I complete the following tasks:
-1. Explore data
-2. Assess missing values
-    * Convert missing values to NaN
-    * Assess missing values by dataframe column and drop outliers
-    * Assess missing values by dataframe row and drop outliers
-3. Select, re-encode, and engineer features
-4. Create a data preprocessing pipeline
+1. Explored data
+2. Assessed missing values
+    * Converted missing values to NaN
+    * Assessed missing values by dataframe column and dropped outliers
+    * Assessed missing values by dataframe row and dropped outliers
+3. Selected, re-encoded, and engineered features
+4. Created a data preprocessing pipeline
 
 ### Step 2: Reduce feature space dimensionality, find clusters, and identify customer segments
 
 In the "Identify_Customer_Segments_Clustering.ipynb" Jupyter notebook, I complete the following tasks:
-1. Impute missing values using mean imputation (multiple imputation coming soon)
-2. Standardize features
-3. Reduce dimensionaly of feature space
-    * Transform feature space using principal components analysis (PCA)
-    * Select "best" subset of transformed features
-    * Interpret principal components using principal directions in original feature space
-4. Cluster customer data using KMeans
-5. Assign general population to clusters and explore results
+1. Imputed missing values using mean imputation (multiple imputation coming soon)
+2. Standardized features
+3. Reduced dimensionaly of feature space
+    * Transformed feature space using principal components analysis (PCA)
+    * Selected "best" subset of transformed features
+    * Interpreted principal components using principal directions in original feature space
+4. Clustered customer data using KMeans
+5. Assigned general population to clusters and explored results
 
 Principal components were selected based on variance explained and a hypothetical measure of the curse of dimensionality effect. Suppose our data were uniformly distributed within a unit hypersphere centered at the origin. With a given sample size and number of input features, we can calculate the median distance from the origin to a point (Hastie, Tibshirani, & Friedman, 2009).
 
