@@ -4,7 +4,7 @@ An educational deep learning project. The goal is to identify customer segments 
 For readability, I split the project into two Jupyter notebooks.
 
 ### Step 1: Explore and preprocess the data. 
-##### See "Identify_Customer_Segments_Preprocessing.ipynb". 
+##### See "Identify_Customer_Segments_Preprocessing.ipynb".
 
 I complete the following tasks:
 1. Explore data
