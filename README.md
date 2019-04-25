@@ -4,9 +4,8 @@ An educational deep learning project. The goal is to identify customer segments 
 For readability, I split the project into two Jupyter notebooks.
 
 ### Step 1: Explore and preprocess the data. 
-##### See "Identify_Customer_Segments_Preprocessing.ipynb".
 
-I complete the following tasks:
+In the "Identify_Customer_Segments_Preprocessing.ipynb" Jupyter notebook, I complete the following tasks:
 1. Explore data
 2. Assess missing values
     * Convert missing values to NaN
@@ -16,9 +15,8 @@ I complete the following tasks:
 4. Create a data preprocessing pipeline
 
 ### Step 2: Reduce feature space dimensionality, find clusters, and identify customer segments. 
-##### See "Identify_Customer_Segments_Clustering.ipynb". 
 
-I complete the following tasks:
+In the "Identify_Customer_Segments_Clustering.ipynb" Jupyter notebook, I complete the following tasks:
 1. Impute missing values using mean imputation (multiple imputation coming soon)
 2. Standardize features
 3. Reduce dimensionaly of feature space
