@@ -30,5 +30,8 @@ Principal components were selected based on variance explained and a hypothetica
 
 Cluster model performance was evaluated using three metrics: mean square error, silhouette coefficient, and Calinski-Harabaz Score.
                   
- ### Required libraries                       
+### Required libraries                       
 This project uses Numpy, Pandas, Pyplot, Seaborn, and Sklearn.
+
+### Data Source
+Data was provided by AZ Direct and Arvato Finance Solution, subsidiaries of Bertelsmann. The data pertains to mail-order sales in Germany. Because the data is proprietary, I cannot publish the original data. Please review Data_Dictionary.md for more information on the data used in this project.
