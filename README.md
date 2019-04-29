@@ -1,4 +1,4 @@
-# Identifying_Customer_Segments
+# Identifying Customer Segments
 An educational unsupervised learning project. The goal is to identify customer segments by clustering customers in a reduced feature space. After producing a cluster model, I compared the population of customers to the general German population to determine how segments of the general population are represented in the customer population.
 
 For readability, I split the project into two Jupyter notebooks.
